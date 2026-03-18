@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #001A23;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.GameEventsController">
+   <children>
+      <TextField fx:id="inputWord" layoutX="192.0" layoutY="238.0" prefHeight="69.0" prefWidth="316.0" style="-fx-background-color: #F0F7EE;" />
+      <Button fx:id="buttonVerify" layoutX="450.0" layoutY="248.0" mnemonicParsing="false" onAction="#verify" prefHeight="44.0" prefWidth="47.0" style="-fx-background-color: #FF7F11;" text="↑">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+      <Label fx:id="labelTime" layoutX="14.0" layoutY="461.0" text="Tiempo" textFill="#f0f7ee">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelLevel" layoutX="14.0" layoutY="436.0" text="Nivel" textFill="#f0f7ee">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <HBox fx:id="hBoxWord" layoutX="60.0" layoutY="102.0" prefHeight="100.0" prefWidth="572.0" style="-fx-background-color: #002E3D; -fx-background-radius: 10;" />
+   </children>
+</AnchorPane>

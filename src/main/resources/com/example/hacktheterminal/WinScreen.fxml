@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #001F29;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.WinController">
+   <children>
+      <Label layoutX="222.0" layoutY="90.0" style="-fx-background-color: #002E3D;" text="Ganaste!" textFill="#00f500">
+         <font>
+            <Font name="Adwaita Sans" size="61.0" />
+         </font>
+      </Label>
+      <Label layoutX="184.0" layoutY="188.0" prefHeight="28.0" prefWidth="333.0" text="Vaya, realmente llegaste aqui..." textAlignment="CENTER" textFill="#f0f7ee">
+         <font>
+            <Font name="Adwaita Sans" size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="newGameButton" layoutX="120.0" layoutY="300.0" mnemonicParsing="false" onAction="#switchGameScene" style="-fx-background-radius: 10; -fx-background-color: #002E3D;" text="Nuevo juego" textFill="#f0f7ee">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="menuButton" layoutX="458.0" layoutY="300.0" mnemonicParsing="false" onAction="#switchMenuScene" style="-fx-background-radius: #001F29; -fx-background-color: #002E3D;" text="Ir al menú" textFill="#f0f7ee">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
