@@ -4,7 +4,7 @@ package Model;
  * Interface that defines the contract for the game's word bank.
  * Provides methods to obtain random words based on the game level.
  *
- * @author HackTheTerminal Team
+ * @author Juan Sebastian Duarte Quintero
  * @version 1.0
  */
 public interface IWordBank {

@@ -12,7 +12,7 @@ import javafx.stage.Stage;
  * Controller class for the main menu scene.
  * Handles user interactions in the menu and manages scene transitions to the game.
  *
- * @author HackTheTerminal Team
+ * @author Juan Sebastian Duarte Quintero
  * @version 1.0
  */
 public class MenuController {

@@ -22,7 +22,7 @@ import javafx.stage.Stage;
  * Manages game events, user input validation, word display, timer updates, and level progression.
  * Handles the core gameplay loop including visual feedback for typed letters.
  *
- * @author HackTheTerminal Team
+ * @author Juan Sebastian Duarte Quintero
  * @version 1.0
  */
 public class GameEventsController {

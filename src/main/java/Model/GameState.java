@@ -6,7 +6,7 @@ import Controlador.GameEventsController;
  * Implementation of IGameState that manages the current state of the game.
  * Tracks the game level, start/end conditions, and handles game progression.
  *
- * @author HackTheTerminal Team
+ * @author Juan Sebastian Duarte Quintero
  * @version 1.0
  */
 public class GameState implements IGameState{

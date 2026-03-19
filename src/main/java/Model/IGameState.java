@@ -6,7 +6,7 @@ import Controlador.GameEventsController;
  * Interface that defines the contract for managing game state.
  * Provides methods to control game flow, track levels, and determine game outcomes.
  *
- * @author HackTheTerminal Team
+ * @author Juan Sebastian Duarte Quintero
  * @version 1.0
  */
 public interface IGameState {

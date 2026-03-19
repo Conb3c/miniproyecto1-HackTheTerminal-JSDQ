@@ -4,7 +4,7 @@ package Model;
  * Implementation of IValidateWord that provides word validation and decomposition functionality.
  * This class validates user input against target words and converts words into character arrays.
  *
- * @author HackTheTerminal Team
+ * @author Juan Sebastian Duarte Quintero
  * @version 1.0
  */
 public class ValidateWord implements IValidateWord{

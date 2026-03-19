@@ -9,7 +9,7 @@ import javafx.util.Duration;
  * Uses JavaFX Timeline for creating a countdown that decreases every second.
  * Time limits decrease as levels increase to raise difficulty.
  *
- * @author HackTheTerminal Team
+ * @author Juan Sebastian Duarte Quintero
  * @version 1.0
  */
 public class GameTimer implements IGameTime{

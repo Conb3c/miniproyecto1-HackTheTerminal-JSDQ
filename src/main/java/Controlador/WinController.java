@@ -13,7 +13,7 @@ import javafx.stage.Stage;
  * Handles user interactions when the player successfully completes the game.
  * Provides options to start a new game or return to the main menu.
  *
- * @author HackTheTerminal Team
+ * @author Juan Sebastian Duarte Quintero
  * @version 1.0
  */
 public class WinController {

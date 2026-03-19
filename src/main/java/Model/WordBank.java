@@ -8,7 +8,7 @@ import java.util.Random;
  * Implementation of IWordBank that manages a collection of words organized by difficulty tiers.
  * Words are categorized into five tiers, with each tier corresponding to specific game levels.
  *
- * @author HackTheTerminal Team
+ * @author Juan Sebastian Duarte Quintero
  * @version 1.0
  */
 public class WordBank implements IWordBank{

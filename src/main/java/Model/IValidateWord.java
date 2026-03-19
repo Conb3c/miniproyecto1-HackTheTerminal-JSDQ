@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Interface that defines the contract for word validation operations.
  * Provides methods to validate user input against the target word and decompose words into characters.
  *
- * @author HackTheTerminal Team
+ * @author Juan Sebastian Duarte Quintero
  * @version 1.0
  */
 public interface IValidateWord {

@@ -4,7 +4,7 @@ package Model;
  * Interface that defines the contract for managing game time and timer operations.
  * Provides methods to control the countdown timer and calculate time limits per level.
  *
- * @author HackTheTerminal Team
+ * @author Juan Sebastian Duarte Quintero
  * @version 1.0
  */
 public interface IGameTime {
